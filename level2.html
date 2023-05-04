@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>שלב ראשון</title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Assistant', sans-serif;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+      
+      div {
+        background-color: #ffffff;
+        border-radius: 9px;
+        padding: 60px;
+        text-align: center;
+        box-shadow: 0 0 30px hsl(186 100% 69%);
+      }
+      
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      input[type="text"] {
+        width: 300px;
+        padding: 10px;
+        font-size: 24px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+      }
+      
+      button {
+        padding: 10px 20px;
+        margin: 20px auto;
+        font-size: 24px;
+        border-radius: 5px;
+        border: none;
+        background-color: hsl(186, 100%, 21%);
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+      }
+
+      div {
+        background-color: #161616;
+        border-radius: 9px;
+        padding: 60px;
+        text-align: center;
+        box-shadow: 0 0 60px hsl(186 100% 69%);
+        text-align: center;
+      }
+      
+      button:hover {
+        background-color: hsl(186, 100%, 21%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>שלב 1</h1>
+        <input type="text" id="codeInput" placeholder="הכנס קוד כאן">
+        <button id="submitButton">שלח</button>
+        <button id="homeButton">צפייה חוזרת בסרטון</button>
+      </div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="level2.js"></script>
+  </body>
+</html>
